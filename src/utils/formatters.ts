@@ -5,7 +5,6 @@ export const formatCurrency = (value: number): string => {
   });
 };
 
-// Função auxiliar para remover formatação
 export const unformatCurrency = (value: string): number => {
   return Number(value.replace(/[^0-9,-]/g, '').replace(',', '.'));
 }; 
