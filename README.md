@@ -103,6 +103,4 @@ src/
 
 ## 📧 Contato
 
-Seu Nome - [@seutwitter](https://twitter.com/seutwitter) - email@exemplo.com
-
-Link do Projeto: [https://github.com/seu-usuario/pix-payment-app](https://github.com/seu-usuario/pix-payment-app)
+Seu Nome - [@victor-hugo-araujo-439665256](https://www.linkedin.com/in/victor-hugo-araujo-439665256/?locale=en_US) - devvictorh@gmail.com
