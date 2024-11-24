@@ -1,79 +1,108 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Midway Case APP
 
-# Getting Started
+<p align="center">
+  <img src="./assets/demo/Logo.png" alt="PIX Payment App Logo" width="200"/>
+</p>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a flexibilidade de pagamento à vista ou parcelado via cartão de crédito. Desenvolvido com foco em uma experiência do usuário fluida e segura.
 
-## Step 1: Start the Metro Server
+## 📱 Demonstração
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<p align="center">
+  <video src="./assets/demo/IOS.mp4" width="250" controls></video>
+  <video src="./assets/demo/Android.webm" width="250" controls></video>
+</p>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## ✨ Funcionalidades
 
+- 💰 Pagamento PIX via saldo em conta
+- 💳 Pagamento PIX parcelado via cartão de crédito
+- 📊 Simulação de parcelas em tempo real
+- 🔄 Animações suaves e interativas com Lottie
+- 📝 Comprovante de pagamento digital
+- 🌈 Interface moderna e intuitiva
+
+## 🚀 Tecnologias Utilizadas
+
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)
+- [Lottie React Native](https://github.com/lottie-react-native/lottie-react-native) 
+  - Biblioteca para renderização de animações vetoriais de alta qualidade exportadas do Adobe After Effects. Benefícios:
+  - ⚡ Performance otimizada com animações leves
+  - 🎨 Animações vetoriais escaláveis sem perda de qualidade
+  - 🔄 Controle preciso sobre reprodução e interatividade
+  - 📦 Arquivos de animação compactos
+  - 💻 Suporte multiplataforma consistente
+
+## 📋 Pré-requisitos
+
+- Node.js >= 14
+- npm ou yarn
+- CocoaPods (iOS)
+- Android Studio (Android)
+- Xcode (iOS)
+- JDK 11
+
+## 🛠️ Instalação
+
+1. Clone o repositório:
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone https://github.com/seu-usuario/pix-payment-app.git
 ```
 
-## Step 2: Start your Application
+2. Instale as dependências:
+```bash
+# usando npm
+npm install
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+# OU usando yarn
+yarn install
+```
 
-### For Android
+3. Para iOS, instale os pods:
+```bash
+cd ios && pod install && cd ..
+```
+
+## 💻 Executando o Projeto
+
+### Android
 
 ```bash
-# using npm
+# usando npm
 npm run android
 
-# OR using Yarn
+# OU usando yarn
 yarn android
 ```
 
-### For iOS
+### iOS
 
 ```bash
-# using npm
+# usando npm
 npm run ios
 
-# OR using Yarn
+# OU usando yarn
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 🏗️ Estrutura do Projeto
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+```
+src/
+├── components/         # Componentes reutilizáveis
+├── screens/           # Telas do aplicativo
+├── navigation/        # Configuração de navegação
+├── theme/            # Estilos e temas
+├── utils/            # Funções utilitárias
+└── types/            # Definições de tipos TypeScript
+```
 
-## Step 3: Modifying your App
+## 📧 Contato
 
-Now that you have successfully run the app, let's modify it.
+Seu Nome - [@seutwitter](https://twitter.com/seutwitter) - email@exemplo.com
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Link do Projeto: [https://github.com/seu-usuario/pix-payment-app](https://github.com/seu-usuario/pix-payment-app)

@@ -116,4 +116,19 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // Adicione estas linhas para excluir as dependências conflitantes
+    configurations.all {
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'support-compat'
+    }
+    implementation project(':react-native-vector-icons')
 }
+
+project.ext.vectoricons = [
+    iconFontNames: [ 'Montserrat-Regular.ttf', 'Montserrat-Medium.ttf', 'Montserrat-SemiBold.ttf', 'Montserrat-Bold.ttf', 'MaterialIcons.ttf' ]
+]
+
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
+
