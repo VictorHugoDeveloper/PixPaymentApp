@@ -8,10 +8,13 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 
 ## 📱 Demonstração
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <video src="https://github.com/user-attachments/assets/f4cc983a-0a30-4929-85f7-59a23e58869c" width="45%" />
-  <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" width="45%" />
-</div>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/f4cc983a-0a30-4929-85f7-59a23e58869c" />
+</p>
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" />
+</p>
 
 ## ✨ Funcionalidades
 
@@ -29,7 +32,7 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 - [React Navigation](https://reactnavigation.org/)
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 - [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)
-- [Lottie React Native](https://github.com/lottie-react-native/lottie-react-native) 
+- [Lottie React Native](https://github.com/lottie-react-native/lottie-react-native)
   - Biblioteca para renderização de animações vetoriais de alta qualidade exportadas do Adobe After Effects. Benefícios:
   - ⚡ Performance otimizada com animações leves
   - 🎨 Animações vetoriais escaláveis sem perda de qualidade
@@ -49,11 +52,13 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 ## 🛠️ Instalação
 
 1. Clone o repositório:
+
 ```bash
 git clone https://github.com/seu-usuario/pix-payment-app.git
 ```
 
 2. Instale as dependências:
+
 ```bash
 # usando npm
 npm install
@@ -63,6 +68,7 @@ yarn install
 ```
 
 3. Para iOS, instale os pods:
+
 ```bash
 cd ios && pod install && cd ..
 ```
