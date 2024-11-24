@@ -9,11 +9,8 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 ## 📱 Demonstração
 
 <p align="center">
+   <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" />
   <video src="https://github.com/user-attachments/assets/f4cc983a-0a30-4929-85f7-59a23e58869c" />
-</p>
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" />
 </p>
 
 ## ✨ Funcionalidades
