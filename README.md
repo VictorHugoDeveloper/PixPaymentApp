@@ -9,7 +9,10 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 ## 📱 Demonstração
 
 <p align="center">
-   <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" />
+  <video src="https://github.com/user-attachments/assets/16479b17-d391-4f9e-a6de-3ff1f01d1f10" />
+</p>
+
+<p align="center">
   <video src="https://github.com/user-attachments/assets/f4cc983a-0a30-4929-85f7-59a23e58869c" />
 </p>
 
@@ -61,7 +64,7 @@ git clone https://github.com/seu-usuario/pix-payment-app.git
 npm install
 
 # OU usando yarn
-yarn install
+yarn
 ```
 
 3. Para iOS, instale os pods:
@@ -106,4 +109,4 @@ src/
 
 ## 📧 Contato
 
-Seu Nome - [@victor-hugo-araujo-439665256](https://www.linkedin.com/in/victor-hugo-araujo-439665256/?locale=en_US) - devvictorh@gmail.com
+Victor Hugo - [@victor-hugo-araujo-439665256](https://www.linkedin.com/in/victor-hugo-araujo-439665256/?locale=en_US) - devvictorh@gmail.com
