@@ -54,7 +54,7 @@ Um aplicativo React Native moderno para realizar pagamentos PIX, oferecendo a fl
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/pix-payment-app.git
+git clone https://github.com/VictorHugoDeveloper/PixPaymentApp.git
 ```
 
 2. Instale as dependências:
