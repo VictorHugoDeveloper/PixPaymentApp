@@ -1,4 +1,4 @@
--- LocalScript (para exploit)
+-- LocalScript (Exploit)
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -7,19 +7,14 @@ local tempoEntrada = tick()
 
 -- Loop 1: Executa o loadstring uma vez quando >= 4 jogadores
 task.spawn(function()
-	repeat task.wait() until Players.LocalPlayer and #Players:GetChildren() > 0
-	task.wait(5)
-
 	while true do
 		task.wait(5)
-
-		local jogadores = #game.Players:GetChildren()
-		print("[DEBUG] Jogadores conectados:", jogadores)
+		local jogadores = #Players:GetPlayers()
 
 		if jogadores >= 4 then
-			script_key = "uQQTiRbZBrfLlMReDcDsqMHUwLopfdHb"
+			script_key="uQQTiRbZBrfLlMReDcDsqMHUwLopfdHb";
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
-			break
+			break -- Encerra esse loop após executar
 		end
 	end
 end)
@@ -28,7 +23,7 @@ end)
 while true do
 	task.wait(5)
 
-	local jogadores = #game.Players:GetChildren()
+	local jogadores = #Players:GetPlayers()
 	local tempoNoJogo = tick() - tempoEntrada
 	local placeIdAtual = game.PlaceId
 
@@ -37,3 +32,5 @@ while true do
 		break
 	end
 end
+
+print("start")
